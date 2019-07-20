@@ -1,0 +1,15 @@
+{% extends "home_page/base.html" %}
+{% block content %}
+<br>
+  <br>
+    <br>
+      <h2>You have been logged out</h2>
+        <div class="nk-box-2 ">
+          <small class="text-muted">
+              <a href="{% url 'login' %}">Log In Again</a>
+          </small>
+        </div>
+      <br>
+    <br>
+  <br>
+{% endblock content %}
